@@ -1,0 +1,181 @@
+:root {
+  --page-color: pink;
+  --primary-color: #green;
+  --secondary-color: white;
+  --font: Sans-serif;
+}
+.dropbtn {
+position: relative;
+left:0%;
+background-color: #4CAF50;
+color: black;
+padding: 1em;
+font-size: 20px;
+border: none;
+}
+
+prices{
+  table {
+    border-spacing: 1;
+    width: 100%;
+    border: 1px red;
+    border-color: red;
+  }
+  
+  th, td {
+    text-align: left;
+    padding:6px;
+  }
+}
+
+header {
+  text-align: center;
+  width: 75%;
+  position: relative;
+  left: 15%;
+  margin-top: 50px;
+font-size:calc(.8rem+3vw)
+}
+
+header>h1 {
+  color: black;
+}
+
+.sign_in_div {
+  width: 75%;
+  position: relative;
+  left: 15%;
+  text-align: center;
+}
+
+.sign_in_form {
+  padding: 1rem;
+  text-align: center;
+  font-size: calc(1rem+3vw);
+  font-family: sans-serif;
+  position: relative;
+}
+
+.inputs {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.input {
+  margin: 10px 10px;
+  position: relative;
+  text-align: center;
+}
+
+.userInput {
+  background-color: white;
+  color: black;
+  font-size: calc(.5rem+2vw);
+  width: 50%;
+}
+
+.sign_up {
+  position: relative;
+  right: 1%;
+  padding: 50px;
+}
+
+.email_span {
+  position: relative;
+  left: 1.5%;
+}
+
+.username_span {
+  position: relative;
+  right: .5%;
+}
+
+.link_span {
+  position: relative;
+  bottom: 1%;
+  text-align: center;
+  left: 44%
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: red;
+}
+
+.grid {
+display: flex;
+flex-direction: column;
+flex-flow: row wrap;
+}
+
+body {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: var(--primary-color);
+  background: var(--page-color);
+}
+
+text-align: center;
+}
+
+.about_div {
+  width: 75%;
+  background-color: orange;
+  position: relative;
+  left: 15%;
+  text-align: center;
+}
+
+.about_form {
+  padding: 1rem;
+  text-align: center;
+  font-size: calc(1rem+3vw);
+  font-family: sans-serif;
+  position: relative;
+}
+
+
+nav a {
+color: var(--secondary-color);
+}
+#top {
+color: var(--primary-color);
+  font-size: 1.250rem;
+font-weight: 1000;
+}
+#top:hover {
+color: var(--secondary-color);
+}
+
+responsiveimage{
+width: 100%;
+height: auto;
+}
